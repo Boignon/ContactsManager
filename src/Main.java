@@ -3,6 +3,9 @@ public class Main {
         ContactsManager myContactsManager = new
                 ContactsManager();
         Contact myFriends = new Contact();
+
+        myFriends.name = "ourielle";
+
     }
 }
 class ContactsManager {
