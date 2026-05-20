@@ -8,6 +8,22 @@ public class Main {
         myFriends.phoneNumber = "0512345678";
         myContactsManager.addContact(myFriends);
 
+        myFriends.name = "Andy";
+        myFriends.phoneNumber = "0588754216";
+        myContactsManager.addContact(myFriends);
+
+        myFriends.name = "Christiane";
+        myFriends.phoneNumber = "0523369541";
+        myContactsManager.addContact(myFriends);
+
+        myFriends.name = "loisse";
+        myFriends.phoneNumber = "0124587956";
+        myContactsManager.addContact(myFriends);
+
+        myFriends.name = "esteban";
+        myFriends.phoneNumber = "0745852365";
+        myContactsManager.addContact(myFriends);
+
     }
 }
 class ContactsManager {
