@@ -5,6 +5,7 @@ public class Main {
         Contact myFriends = new Contact();
 
         myFriends.name = "ourielle";
+        myFriends.phoneNumber = "0512345678";
 
     }
 }
