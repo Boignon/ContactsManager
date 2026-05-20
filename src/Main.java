@@ -24,6 +24,10 @@ public class Main {
         myFriends.phoneNumber = "0745852365";
         myContactsManager.addContact(myFriends);
 
+        Contact result = myContactsManager.searchContact("Andy");
+        if (result != null) {
+            System.out.println("Numéro de Andy : " + result.phoneNumber);
+        }
     }
 }
 class ContactsManager {
